@@ -12,6 +12,33 @@ img {
   font-weight: 900;
 }
 
+.card-header{
+  /* background-color: blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.card-container{
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.items .text{
+  opacity: 60%;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
